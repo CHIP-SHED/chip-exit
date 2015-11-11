@@ -1,0 +1,14 @@
+Source: chip-exit
+Section: misc
+Priority: extra
+Maintainer: Ben Young <benjamin@nextthing.co>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://crunchbangplusplus.org
+
+Package: chip-exit
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-gtk2, consolekit, upower
+Description: Chip logout script.
+ GUI logout/shutdown/restart/lock
+ script.
