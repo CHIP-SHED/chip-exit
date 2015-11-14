@@ -10,7 +10,6 @@ class chip_exit:
 	def disable_buttons(self):
 		self.cancel.set_sensitive(False)
 		self.logout.set_sensitive(False)
-		self.suspend.set_sensitive(False)
 		self.reboot.set_sensitive(False)
 		self.shutdown.set_sensitive(False)
 
@@ -65,13 +64,6 @@ class chip_exit:
 		self.logout.connect("clicked", self.logout_action)
 		self.button_box.pack_start(self.logout)
 		self.logout.show()
-		
-		#Suspend button
-		self.suspend = gtk.Button("L_ock")
-		self.suspend.set_border_width(4)
-		self.suspend.connect("clicked", self.suspend_action)
-		self.button_box.pack_start(self.suspend)
-		self.suspend.show()
 		
 		#Reboot button
 		self.reboot = gtk.Button("_Reboot")
