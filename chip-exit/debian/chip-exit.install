@@ -1,1 +1,1 @@
-chip-exit /usr/bin/
+bin/* /usr/bin/
