@@ -43,7 +43,7 @@ class chip_exit:
 	def __init__(self):
 		self.create_window()
 		gobject.timeout_add(3000, self.timeout)
-	def timeout(self);
+	def timeout(self):
 		os.system("systemctl poweroff")
 
 def main():

@@ -1,3 +1,9 @@
+chip-exit (0.4) stable; urgency=low
+
+  * Fixed syntax error preventing shutdown.
+
+ -- Ben Young <software@nextthing.co>  Fri, 6 May 2016 19:45:48 -0800
+
 chip-exit (0.3) stable; urgency=low
 
   * Pocketchip warning calibration.
